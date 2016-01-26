@@ -14,6 +14,5 @@ public class Driver{
 	String plyr2 = props.getProperty("Player2");
 	Duration d = Duration.ofMinutes(Integer.parseInt(props.getProperty("Length")));
 	new Clock(plyr1, plyr2, d);
-	System.out.println(d);
     }
 }

@@ -14,10 +14,12 @@ public class Clock extends JFrame {
     
     public Clock(String plyr1, String plyr2, Duration d){
 
+	setLayout(new GridLayout(0, 2));
+
 	aName = plyr1;
 	bName = plyr2;
 	
-	setBounds(100, 100, 900, 300);
+	setBounds(100, 100, 900, 75);
 
 	add(aPane = new TimePane(plyr1, true, d));
 	add(bPane = new TimePane(plyr2, false, d)); 
