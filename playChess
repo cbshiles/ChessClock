@@ -1,0 +1,3 @@
+cd /home/brenan/code/chess_clock
+emacs chess.data
+./runChess.tmp
